@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crash Game</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-900 text-white min-h-screen flex items-center justify-center">
+    <div class="container mx-auto p-6 max-w-2xl bg-gray-800 rounded-lg shadow-2xl">
+        <div class="game-container">
+            <h1 class="text-4xl font-bold text-center mb-6 text-neon-green">Crash Game</h1>
+            
+            <div class="game-display relative h-64 bg-gray-700 rounded-lg mb-6 overflow-hidden">
+                <div id="multiplierCurve" class="absolute bottom-0 left-0 w-full h-full"></div>
+                <div id="multiplierText" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-6xl font-bold text-neon-green">1.00x</div>
+                <div id="countdownOverlay" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 z-10">
+                    <div id="countdownText" class="text-5xl font-bold text-white"></div>
+                </div>
+                <div id="gameStateMessage" class="absolute bottom-0 left-0 w-full text-center p-2 text-xl font-semibold"></div>
+            </div>
+            
+            <div class="game-controls grid grid-cols-2 gap-4">
+                <div class="bet-section">
+                    <label for="betAmount" class="block mb-2">Bet Amount</label>
+                    <input 
+                        type="number" 
+                        id="betAmount" 
+                        class="w-full p-2 bg-gray-700 rounded border border-gray-600 text-white"
+                        placeholder="Enter bet amount"
+                        min="0.01"
+                        step="0.01"
+                    >
+                </div>
+                
+                <div class="auto-cashout-section">
+                    <label for="autoCashout" class="block mb-2">Auto Cashout</label>
+                    <input 
+                        type="number" 
+                        id="autoCashout" 
+                        class="w-full p-2 bg-gray-700 rounded border border-gray-600 text-white"
+                        placeholder="Auto cashout at"
+                        min="1.01"
+                        step="0.01"
+                    >
+                </div>
+            </div>
+            
+            <div class="game-buttons mt-6 grid grid-cols-2 gap-4">
+                <button 
+                    id="playButton" 
+                    class="btn btn-success py-3 text-lg font-bold hover:bg-green-700 transition duration-300"
+                >
+                    Play
+                </button>
+                <button 
+                    id="cashoutButton" 
+                    class="btn btn-warning py-3 text-lg font-bold hover:bg-yellow-700 transition duration-300" 
+                    disabled
+                >
+                    Cashout
+                </button>
+            </div>
+            
+            <div id="gameResult" class="mt-6 text-center text-2xl font-bold"></div>
+            
+            <div class="game-history mt-6">
+                <h3 class="text-2xl mb-4">Game History</h3>
+                <div id="historyContainer" class="grid grid-cols-5 gap-2 text-center">
+                    <!-- History items will be dynamically added here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="game.js"></script>
+</body>
+</html>
