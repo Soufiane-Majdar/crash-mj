@@ -11,6 +11,14 @@
 - Cash out before the crash point to maximize your profits!  
 
 Can you predict the crash and beat the odds?  
+---
+
+## **Game Preview**  
+<img src="Crash Game_won.png"/> 
+*Screenshot: A sleek, interactive interface with rising multipliers and neon highlights.*  
+
+# Crash_Game
+Demo : https://soufiane-majdar.github.io/crash-mj/
 
 ---
 
@@ -66,17 +74,6 @@ The challenge lies in predicting the right moment to cash out before the crash. 
 - Real-Time Betting Game  
 - Auto Cashout Strategy  
 - Multiplier Game Simulator  
-
----
-
-## **Game Preview**  
-<img src="Crash Game_won.png"/> 
-*Screenshot: A sleek, interactive interface with rising multipliers and neon highlights.*  
-
-# Crash_Game
-Demo : https://soufiane-majdar.github.io/crash-mj/
-
-## Lost :
 
 ---
 
