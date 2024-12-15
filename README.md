@@ -14,11 +14,12 @@ Can you predict the crash and beat the odds?
 ---
 
 ## **Game Preview**  
+### Live Demo
+Demo : https://soufiane-majdar.github.io/crash-mj/
+
 <img src="Crash Game_won.png"/> 
 *Screenshot: A sleek, interactive interface with rising multipliers and neon highlights.*  
 
-# Crash_Game
-Demo : https://soufiane-majdar.github.io/crash-mj/
 
 ---
 
