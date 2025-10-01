@@ -1,110 +1,77 @@
+# 🚀 Crash Game - Educational Multiplier Simulator
 
----  
-# 🚀 **Crash Game - A Thrilling Multiplier Prediction Game**  
+## ⚠️ Important Disclaimer  
+This project is **not** a hack, cheat, or script for real crash betting games such as **1xBet Crash** or similar platforms.  
+It simply **recreates the same mathematical functions and randomization logic** used in those games to simulate their behavior for **educational and entertainment purposes only**.
 
-## **About the Game**  
-**Crash Game** is an exciting real-time multiplier prediction game where players bet and cash out before the game crashes! Inspired by popular games like **1xBet Crash** and multiplier prediction games, this version challenges your instincts and timing to predict when to cash out for maximum winnings.  
+👉 There is **no real way to “predict” or “hack” crash games**. The crash point is determined using a **secure random number generator** combined with **server-side secrets (tokens)** that **only the companies themselves can generate**.  
 
-🎯 **Objective**:  
+🚨 If you search online for “crash game hacks” or “prediction scripts,” you will almost certainly be **scammed**. Many sites or Telegram groups promise “scripts” to predict crash multipliers — these are **fake** and are often created to **steal your money or data**.
+
+---
+
+## 🎮 About the Game  
+**Crash Game** is an exciting real-time multiplier simulation where you place a bet, watch the multiplier grow, and try to cash out before it crashes. It’s inspired by popular crash-style games, but this version is **completely independent** and runs locally in your browser.
+
+🎯 **Objective**:
 - Place a bet.  
 - Watch the multiplier rise in real-time.  
-- Cash out before the crash point to maximize your profits!  
+- Cash out before the crash point to maximize your virtual winnings!  
 
-Can you predict the crash and beat the odds?  
----
-
-## **Game Preview**  
-### Live Demo
-Demo : https://soufiane-majdar.github.io/crash-mj/
-
-<img src="Crash Game_won.png"/> 
-*Screenshot: A sleek, interactive interface with rising multipliers and neon highlights.*  
-
+Can you time it right before the crash?
 
 ---
 
-## **Key Features**  
+## 🌐 Live Demo  
+👉 [**Play it here**](https://soufiane-majdar.github.io/crash-mj/)  
+
+<img src="Crash Game_won.png" alt="Crash Game Screenshot"/>  
+*Screenshot: A sleek, interactive interface with rising multipliers and neon highlights.*
+
+---
+
+## ✨ Key Features  
 
 ✅ **Real-Time Multiplier Simulation**  
-- The game smoothly animates a rising multiplier from `1.00x` upward.  
-- The crash point is determined by a random algorithm for fairness.  
+- Multiplier starts at `1.00x` and increases smoothly.  
+- Crash point is determined by a **fair random algorithm**, just like real games.  
 
 ✅ **Auto Cashout Option**  
-- Set your **auto cashout** value to automatically secure profits if the multiplier reaches your desired point.  
-- Perfect for those who want to minimize risk.  
+- Set an auto cashout value to automatically secure profits.  
 
 ✅ **Countdown System**  
-- A **10-second countdown** starts before each round.  
-- Bet and get ready as the next round approaches!  
+- A 10-second countdown prepares you before each round starts.  
 
 ✅ **Game History Tracking**  
-- View the results of the last 5 games to analyze trends.  
-- Predict better based on previous crash points!  
+- Check the results of the last 5 rounds to observe patterns.  
 
-✅ **User-Friendly UI**  
-- Sleek, modern, and interactive design.  
-- **Neon colors** and smooth animations for an engaging experience.  
+✅ **Modern, Interactive UI**  
+- Neon-themed, smooth animations for a fun experience.  
 
 ---
 
-## **How to Play the Crash Game**  
+## 🕹️ How to Play  
 
-1. **Place Your Bet**: Enter your desired bet amount.  
-2. **Start the Game**: Watch the multiplier increase from `1.00x`.  
-3. **Cash Out**: Click **Cashout** or let your Auto Cashout trigger before the game crashes.  
-4. **Game Over**: If you cash out in time, you win! If not, the multiplier crashes, and the round ends.  
+1. **Place Your Bet**  
+2. **Start the Game**  
+3. **Cash Out Before the Crash**  
+4. **Win or Lose Depending on Timing**  
 
-The challenge lies in predicting the right moment to cash out before the crash. Sharpen your timing skills and play smart to win big!  
-
----
-
-## **Why Play This Crash Prediction Game?**  
-
-🔮 **Crash Prediction**: Improve your **crash prediction** skills to anticipate when the game might end. The perfect game for fans of **1xBet crash predictions** or similar real-time betting games.  
-
-💡 **Practice and Learn**: Test different strategies, analyze the game history, and develop your winning edge.  
-
-⚡ **Excitement and Thrill**: The rising multiplier and sudden crash create a heart-pounding, adrenaline-filled experience every round.  
+This is a **skill and timing game**, not a prediction tool for real platforms.
 
 ---
 
-## **Keywords**  
-- Crash Prediction Game  
-- 1xBet Prediction  
-- Crash Game Multiplier  
-- Real-Time Betting Game  
-- Auto Cashout Strategy  
-- Multiplier Game Simulator  
+## 🧠 Why This Simulator Exists  
+
+- 📚 **Educational**: Understand how crash multipliers work mathematically.  
+- 🧪 **Practice**: Try strategies in a risk-free environment.  
+- 🚫 **Myth-Busting**: Learn why “prediction scripts” don’t work in real crash games.  
 
 ---
 
-## **Installation and Setup**  
+## 🛠️ Installation & Setup  
 
 1. Clone the repository:  
-   ```bash  
-   git clone https://github.com/Soufiane-Majdar/crash-mj.git 
-   cd crash-mj   
-   ```  
-
-2. Open `index.html` in your browser.  
-
-3. Enjoy the game!  
-
----
-
-## **Upcoming Features**  
-
-🚧 Future updates will include:  
-- Global leaderboard for top players.  
-- Enhanced animations and sounds for a more immersive experience.  
-- Advanced **AI-based crash prediction** tools.  
-
----
-
-## **License**  
-This project is licensed under the MIT License.  
-
----
-
-🔗 **Play the Game, Predict the Crash, Win Big!** 🚀  
-Enhance your **crash prediction** skills now and dominate the multiplier! Ideal for fans of **1xBet crash prediction scripte**.  
+   ```bash
+   git clone https://github.com/Soufiane-Majdar/crash-mj.git
+   cd crash-mj
