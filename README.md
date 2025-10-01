@@ -1,4 +1,5 @@
 # 🚀 Crash Game - Educational Multiplier Simulator
+[**Demo**](https://soufiane-majdar.github.io/crash-mj/)  
 
 ## ⚠️ Important Disclaimer  
 This project is **not** a hack, cheat, or script for real crash betting games such as **1xBet Crash** or similar platforms.  
